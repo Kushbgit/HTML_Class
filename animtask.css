@@ -1,0 +1,50 @@
+.hero{
+    height: 100vh;
+    background-color: rgb(90, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero2{
+    height: 400px;
+    width: 400px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px 5px;
+    animation-name: rgb;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes rgb {
+    0%{
+        color: red;
+    }
+    30%{
+        color: green;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: yellow;
+    }
+    100%{
+        color: peru;
+    }
+}
+.click{
+    height: 50px;
+    border-radius: 5px;
+    animation-name: rgb;
+    animation-iteration-count: 1;
+    animation-duration: 1s; 
+}
+button:hover{
+    background-color: red;
+    color: whitesmoke;
+    scale: 2;
+    transition: all 1s;
+}
+

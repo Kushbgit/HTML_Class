@@ -1,0 +1,40 @@
+.boxe {
+    background-color: purple;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.box, .box1, .box2{
+    border-radius: 10px;
+
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.box1 {
+    height: 170px;
+    width: 170px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2 {
+    height: 75px;
+    width: 75px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
