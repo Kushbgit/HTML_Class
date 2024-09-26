@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Text Animation</title>
+  <style>
+    .typing-container {
+      display: inline-block;
+      font-family: 'Courier', monospace;
+      font-size: 24px;
+    }
+
+    .typing-text {
+      display: inline-block;
+      overflow: hidden;
+      border-right: 0.15em solid black; /* Simulate the cursor */
+      white-space: nowrap;
+      letter-spacing: 0.1em;
+      animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    .cursor {
+      font-weight: bold;
+      font-size: 24px;
+      color: black;
+      animation: blink-cursor 0.75s step-end infinite;
+    }
+
+    @keyframes blink-cursor {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="typing-container">
+    <p class="typing-text">Discover the elegance of Rado watches.</p>
+    
+    
+    <span class="cursor"></span>
+    
+  </div>
+
+</body>
+</html>

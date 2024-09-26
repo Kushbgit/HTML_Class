@@ -1,0 +1,29 @@
+*{
+    background-color: tomato;
+}
+h1{
+    background-color: green;
+    font-style: italic;
+    color: white;
+}
+.heading{
+    background-color: blue;
+    font-family: Verdana;
+}
+#heading{
+    background-color: yellow;
+    color: black;
+}
+p{
+    color: bisque;
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+    text-shadow: 5px 10px 3px black;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                     

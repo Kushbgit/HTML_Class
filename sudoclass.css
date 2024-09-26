@@ -1,0 +1,20 @@
+h2::before{
+    content:"This is ";
+    color: blue;
+    text-decoration: underline;
+}
+h2::after{
+    content: " CYBROM Disco";    
+    color: lawngreen;
+    text-decoration: overline;
+}
+p::first-letter{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+p::first-line{
+    color: red;
+    font-size: 15px;
+}

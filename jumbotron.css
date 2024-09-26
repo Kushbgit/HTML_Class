@@ -1,0 +1,14 @@
+.jumbo{
+    height: 170px;
+    background-color: palevioletred;
+    padding-left: 15px;
+    padding-top: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.btn{
+    height: 30px;
+    padding-left: 6px;
+    border-radius: 8px;
+}

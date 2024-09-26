@@ -1,0 +1,31 @@
+.boxe{
+    background-color: purple;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box, .box1, .box2{
+    height: 90px;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 10px;
+    
+}
+.box{
+    background-color: red;
+    padding-left:  15px;
+    padding-top: 30px;
+
+}
+.box1{
+    background-color: green;
+    padding-left:  15px;
+    padding-top: 30px;
+}
+.box2{
+    background-color: yellow;
+    padding-left:  15px;
+    padding-top: 30px;
+}

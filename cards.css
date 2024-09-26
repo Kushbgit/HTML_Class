@@ -1,0 +1,77 @@
+.navbar{
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    margin-left: 10px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+.searchbar{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.cardss{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cards1 {
+    width: 150px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 3px 3px 3px;
+
+}
+
+.cards2 {
+    width: 150px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 3px 3px 3px;
+
+}
+
+.cards3 {
+    width: 150px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 3px 3px 3px;
+}
